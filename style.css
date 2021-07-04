@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background:  url('https://wallpapertag.com/wallpaper/full/9/6/3/832529-spring-theme-wallpaper-1920x1080-720p.jpg');
+    width: 100wh;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: #fff;
+    position: relative;
+}
+.left{
+    float: left;
+    margin: 5px;
+}
+.right{
+    float: right;
+    margin: 5px;
+}
+.google{
+    width: 80%;
+    height: 50px;
+    position:absolute;
+    top: 15%;
+    left:10%;
+    border-radius: 50px;
+    background-color:#fff;
+    
+}
+.home{
+    float: left;
+}
+.voice{
+    float: right;
+    margin:10px;
+}
+.mid{
+    position:absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 100px;
+}
+.time2{
+    text-align: center;
+    font-size:30px;
+    font-weight: 2px;
+    color: #fff;
+}
+.am{
+    font-size:15px;
+}
+.app_icon{
+    position:absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 200px;
+}
+.icon{
+    text-align: center;
+}
+.system{
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.system img{
+    margin: 10px;
+    background:#fff;
+    border-radius: 5px;
+}
+.softkey{
+    width: 100%;
+    height: 30px;
+    background:black;
+    color: #fff;
+    position:absolute;
+    bottom:0px;
+}
+.key{
+    text-align: center;
+   
+}
+.key i{
+    margin: 2px 20px;
+}
